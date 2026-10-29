@@ -99,6 +99,8 @@ README.md
 
 ## Pruebas
 
+También ejecuto pruebas de integración contra PostgreSQL real: registro, hash bcrypt, usuario duplicado, login, firma y verificación JWT, consulta protegida del perfil y respuestas 401.
+
 Mis seis pruebas unitarias verifican formatos de email, validación del registro, rechazo de contraseñas cortas y extracción o rechazo del token de autorización.
 
 Ejecuto las pruebas con:
