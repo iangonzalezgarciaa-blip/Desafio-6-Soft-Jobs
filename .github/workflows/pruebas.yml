@@ -23,11 +23,11 @@ jobs:
           --health-retries 10
     env:
       DB_HOST: localhost
-            DB_PORT: 5432
-            DB_USER: postgres
-            DB_PASSWORD: postgres
-            DB_NAME: softjobs
-            JWT_SECRET: clave_de_pruebas_suficientemente_larga_12345
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+      DB_NAME: softjobs
+      JWT_SECRET: clave_de_pruebas_suficientemente_larga_12345
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
